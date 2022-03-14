@@ -1,0 +1,16 @@
+C:\Users\chase\OneDrive\Documents\Source\Repos\mis221\pas\pa3\bin\Debug\net5.0\pa3.exe
+C:\Users\chase\OneDrive\Documents\Source\Repos\mis221\pas\pa3\bin\Debug\net5.0\pa3.deps.json
+C:\Users\chase\OneDrive\Documents\Source\Repos\mis221\pas\pa3\bin\Debug\net5.0\pa3.runtimeconfig.json
+C:\Users\chase\OneDrive\Documents\Source\Repos\mis221\pas\pa3\bin\Debug\net5.0\pa3.runtimeconfig.dev.json
+C:\Users\chase\OneDrive\Documents\Source\Repos\mis221\pas\pa3\bin\Debug\net5.0\pa3.dll
+C:\Users\chase\OneDrive\Documents\Source\Repos\mis221\pas\pa3\bin\Debug\net5.0\ref\pa3.dll
+C:\Users\chase\OneDrive\Documents\Source\Repos\mis221\pas\pa3\bin\Debug\net5.0\pa3.pdb
+C:\Users\chase\OneDrive\Documents\Source\Repos\mis221\pas\pa3\obj\Debug\net5.0\pa3.csproj.AssemblyReference.cache
+C:\Users\chase\OneDrive\Documents\Source\Repos\mis221\pas\pa3\obj\Debug\net5.0\pa3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chase\OneDrive\Documents\Source\Repos\mis221\pas\pa3\obj\Debug\net5.0\pa3.AssemblyInfoInputs.cache
+C:\Users\chase\OneDrive\Documents\Source\Repos\mis221\pas\pa3\obj\Debug\net5.0\pa3.AssemblyInfo.cs
+C:\Users\chase\OneDrive\Documents\Source\Repos\mis221\pas\pa3\obj\Debug\net5.0\pa3.csproj.CoreCompileInputs.cache
+C:\Users\chase\OneDrive\Documents\Source\Repos\mis221\pas\pa3\obj\Debug\net5.0\pa3.dll
+C:\Users\chase\OneDrive\Documents\Source\Repos\mis221\pas\pa3\obj\Debug\net5.0\ref\pa3.dll
+C:\Users\chase\OneDrive\Documents\Source\Repos\mis221\pas\pa3\obj\Debug\net5.0\pa3.pdb
+C:\Users\chase\OneDrive\Documents\Source\Repos\mis221\pas\pa3\obj\Debug\net5.0\pa3.genruntimeconfig.cache
