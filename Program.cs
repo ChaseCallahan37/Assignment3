@@ -408,7 +408,7 @@ namespace pa3
             cardPosition = GetCardPosition(cardValues, ref nextCardValue);      //Will retrieve subscript of card
             nextCard = deckOfCards[cardPosition];
 
-            while(continueGame)     //Will continue to run game until loss or 10 rounds occur
+            while(continueGame && count < 10)     //Will continue to run game until loss or 10 rounds occur
             {
                 if(count < 10)
                 {
@@ -432,7 +432,7 @@ namespace pa3
                         System.Console.WriteLine("Congrats, you guessed correctly!");
                         if(count < 10)      //Will not display if it is the last round
                         {
-                            System.Console.WriteLine($"You will advance on to round {count + 2}");
+                            System.Console.WriteLine($"You will advance on to round {count + 1}");
                         }
                         AskAnyKeyContinue();
                         count++;        //Add one to count to keep track with the rounds.
@@ -455,6 +455,7 @@ namespace pa3
                     cardPosition = GetCardPosition(cardValues, ref nextCardValue);      
                     nextCard = deckOfCards[cardPosition];
                 }
+                
 
             }
             gameWin = FactorForceInBet(ref totalCredits, userBet, count);
@@ -665,9 +666,8 @@ namespace pa3
             {
                 System.Console.WriteLine("WOW! You got all 10 rounds correct!");
                 System.Console.WriteLine("Because of this, you will have your bet tripled!");
-                System.Console.WriteLine($"You will be receiving {userBet * 3} credits!");
-                System.Console.WriteLine($"Your current credit balance is {totalCredits}.");
                 totalCredits += userBet * 3;
+                System.Console.WriteLine($"You will be receiving {userBet * 3} credits!");
                 gameWin = true;
             }
 
