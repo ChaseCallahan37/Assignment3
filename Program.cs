@@ -36,6 +36,7 @@ namespace pa3
                     else
                     {
                         System.Console.WriteLine($"You do not have enought credits to play. You must have at least 20 and you currently have {totalCredits} credits.");
+                        AskAnyKeyContinue();
                     }
                 }
                 else if(mainMenuChoice == "3")
@@ -1465,7 +1466,7 @@ namespace pa3
             Console.Clear();
             System.Console.WriteLine("You approach the traders and greet them with a big smile." + 
             "\nThey welcome you in and ask how you ended up here. You tell them that you dont know, but you'd like to go home." +
-            "\nThey offer to take you back home after they finidh up salvaging the crashed ship." +
+            "\nThey offer to take you back home after they finished up salvaging the crashed ship." +
             "\nWhat do you do?\n\t1. Accept their offer\n\t2. Turn their offer down\n\nType 'exit' to exit.");
             string userInput = ValidateStoryOneTwoOrExit();
             int chance = GetRandomChance();
